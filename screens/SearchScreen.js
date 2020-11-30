@@ -88,7 +88,7 @@ export default class SearchScreen extends React.Component {
 				<StatusBar barStyle="light-content" />
 				<TextInput style={styles.searchBar} 
 						   placeholder="Search for movies"
-						   placeholderTextColor="#e2e8f0"
+						   placeholderTextColor="#000"
 						   onChangeText={_.debounce(this.changeText, 500)}
 						   clearButtonMode="while-editing"
 						   selectTextOnFocus={true}
@@ -101,7 +101,7 @@ export default class SearchScreen extends React.Component {
 							  />
 		      	</View>
 		      	{ this.state.movies.length === 0 && (
-		      		<Text style={{color: '#f7fafc', fontSize: 32}}>No Movies</Text>
+		      		<Text style={{color: '#000', fontSize: 32}}>No Movies</Text>
 	      		)}
 			</View>
 		)
@@ -114,15 +114,15 @@ const styles = StyleSheet.create({
 		justifyContent: 'flex-start',
 		alignItems: 'center',
 		paddingVertical: 15,
-		backgroundColor: '#2d3748'
+		backgroundColor: '#f5f5f5'
 	},
 	searchBar: {
 		width: '75%', 
-		backgroundColor: '#1a202c', 
+		backgroundColor: '#fff', 
 		paddingHorizontal: 25, 
 		paddingVertical: 15,
 		borderRadius: 10,
-		color: '#f7fafc',
+		color: '#000',
 	},
 	searchContainer: {
 		paddingLeft: 25,

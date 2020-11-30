@@ -47,7 +47,7 @@ function OptionButton({ icon, label, onPress, isLastOption }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fafafa',
+    backgroundColor: '#f5f5f5',
   },
   contentContainer: {
     paddingTop: 15,
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     marginRight: 12,
   },
   option: {
-    backgroundColor: '#fdfdfd',
+    backgroundColor: '#f5f5f5',
     paddingHorizontal: 15,
     paddingVertical: 15,
     borderWidth: StyleSheet.hairlineWidth,

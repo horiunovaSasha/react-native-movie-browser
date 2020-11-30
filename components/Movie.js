@@ -40,10 +40,10 @@ const styles = StyleSheet.create({
 		fontWeight: 'bold',
 		fontSize: 16,
 		marginRight: 5,
-		color: '#f7fafc'
+		color: '#555'
 	},
 	movieTitleYear: {
 		fontSize: 16,
-		color: '#e2e8f0'
+		color: '#555'
 	}
 })

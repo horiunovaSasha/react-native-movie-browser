@@ -7,7 +7,7 @@ export default class MovieDetailsScreen extends React.Component {
 	static navigationOptions = ({navigation}) => {
 		return {
 			headerTitle: navigation.getParam('movie').Title,
-			headerTintColor: '#f7fafc'
+			headerTintColor: '#555'
 		}
 	}
 
@@ -65,7 +65,7 @@ export default class MovieDetailsScreen extends React.Component {
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: '#2d3748',
+		backgroundColor: '#f5f5f5',
 		paddingBottom: 15
 	},
 	infoContainer: {
@@ -84,14 +84,14 @@ const styles = StyleSheet.create({
 		fontWeight: 'bold',
 		textAlign: 'left',
 		marginRight: 20,
-		color: '#f7fafc',
+		color: '#555',
 	},
 	freshTitle: {
 		textAlign: 'left'
 	},
 	plot: {
 		marginBottom: 15,
-		color: '#e2e8f0'
+		color: '#555'
 	},
 	poster: {
 		height: 500,

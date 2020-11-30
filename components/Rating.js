@@ -16,7 +16,7 @@ const ratingColor = rating => {
 export default props => (
 	<View style={styles.rating}>
 		<Text style={[styles.number, {color: ratingColor(props.rating.Value)}]}>{props.rating.Value}</Text>
-		<Text style={[styles.source, {color: '#e2e8f0'}]}>{props.rating.Source}</Text>
+		<Text style={[styles.source, {color: '#555'}]}>{props.rating.Source}</Text>
 	</View>
 )
 

@@ -60,7 +60,7 @@ export default class SettingsScreen extends React.Component {
 							   keyboardType="number-pad"
 						       style={styles.resultsSettingInput}
 							   onChangeText={this.handleResultsSettingChange}
-							   background="'#f7fafc'"
+							   background="#f5f5f5"
 							   />
 				</View>
 			</View>
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 		alignItems: 'center',
 		width: '100%',
-		backgroundColor: '#2d3748'
+		backgroundColor: '#f5f5f5'
 	}, 
 	option: {
 		flexDirection: 'row',
@@ -89,10 +89,10 @@ const styles = StyleSheet.create({
 		textAlign: 'right',
 		padding: 10,
 		borderRadius: 10,
-		backgroundColor: '#1a202c',
-		color: '#f7fafc',
+		backgroundColor: 'f5f5f5',
+		color: '#000',
 	},
 	text: {
-		color: '#f7fafc',
+		color: '#000',
 	}
 })
